@@ -1,0 +1,303 @@
+html, body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: white;
+    
+}
+
+div#nav {
+   background-color: black; 
+}
+
+#menu {
+    width: 60%;
+    display: block;
+    list-style-type: none;    
+    margin: auto;
+    padding: 20px;
+    text-align: right;
+    overflow: hidden;
+    background-color: black;
+}
+
+#menu a {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background-color: inherit; 
+    background-color: white;
+    color: black;
+}
+
+#banner {
+    position: relative;
+    width: 100%;
+    border: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#banner-content {
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.90);
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    box-sizing: border-box; 
+}
+
+#banner-name {
+    letter-spacing: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-bottom: 10px;
+    padding-top: 65px;
+    text-align: center;
+}
+
+#banner-description {
+    margin: 0;
+    text-align: center;
+}
+
+#feed {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+div.row {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img {
+    filter: grayscale(50%);
+    width: 350px; 
+    height: 350px;
+    border: 1px solid black;
+}
+
+
+div.col {
+    display: inline-block;
+    margin: 2%;
+}
+
+div.col img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+div.col a:hover span.image-description1,div.col:hover span.image-description2,div.col:hover span.image-description3{
+    display: block;
+}
+
+div.col #me:hover {
+    opacity: 1;
+}
+
+span.image-description1 {
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 23px;
+    left: 115px;
+    top: 210px;
+    cursor: pointer;
+    display: none;
+}
+
+span.image-description2 {
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 23px;
+    left: 500px;
+    top: 210px;
+    cursor: pointer;
+    display: none;
+}
+
+span.image-description3 {
+    position: absolute;
+    color: black;
+    font-weight: 400;
+    font-size: 23px;
+    left: 880px;
+    top: 210px;
+    cursor: pointer;
+    display: none;
+}
+
+#info tr td:first-child {
+    font-weight: 400;
+    color: inherit;
+}
+
+input, textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    width: 100%;
+    background: transparent;
+    outline: none;  
+    border-bottom: solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea {
+    height: 100px;
+    padding: 15px;
+}
+
+input {
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+}
+
+button {
+    width: 107%;
+    height: 40px;
+    padding: 0;
+    margin-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    outline:none;
+    cursor: pointer;
+    border: solid 1px;
+    background-color: transparent;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+hr{
+    width: 100%;
+}
+
+span{
+    position: relative;
+    top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#find-me {
+    padding: 0;
+    margin: 25px;
+    text-align: center;
+}
+
+.ion-ios-location, .ion-ios-person-outline, .ion-ios-email, .ion-social-facebook, .ion-social-linkedin, .ion-social-instagram, .ion-social-pinterest {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+#social-media{
+    text-align: center;
+}
+
+#social-media i {
+    padding: 10px;
+}
+
+.name-tag {
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 352px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+    font-style: normal;
+}
+
+progress {
+    height: 20px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+progress::-webkit-progress-value { 
+    background: rgb(51, 51, 51); 
+}
+
+progress::-webkit-progress-bar {
+    background: white;
+}
+h1 {
+    letter-spacing: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+li{
+    list-style-type: none;    
+    text-decoration: none;
+}
+
+form {
+    position: relative;
+}
+
+a:visited { 
+    color: black;
+}
+/*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
